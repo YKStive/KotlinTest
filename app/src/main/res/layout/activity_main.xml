@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/all_2"
-    tools:context=".MainActivity">
+    android:background="@color/colorAccent">
 
 
     <com.youloft.kotlintest.widget.CircleView
-        android:visibility="gone"
-        android:background="@drawable/ic_bg_content"
+        android:padding="100dp"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_bg_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -27,7 +27,6 @@
             android:textColor="#000000"
             android:textSize="30dp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
